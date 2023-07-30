@@ -1,0 +1,302 @@
+body { 
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+:root{
+border: 1px solid var(--cornflower, #E7E9FC);
+                --primary-font: "Roboto", sans-serif;
+                --title-font: "Raleway", sans-serif;
+                --primary-black-color: var(--slate, #434455;
+                --primary-white-color:#FFFFFF;
+                --primary-accent-color:#2e2f42;
+                --secondary-accent-color: #404bbf;
+                --active-link-color: #434455);
+
+}
+
+/*--------------HEADER-----------*/
+
+.header-logo{
+    color: var(--iris, #4D5AE5);
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-family: "Raleway", sans-serif;
+}
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.header-logo-italic{
+    color: #2E2F42;
+}
+.header-menu-list{
+    color: #2e2f42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+}
+.header-menu-item :hover{color: #404bbf
+
+}
+.header-menu-item :focus{color: #404bbf}
+
+
+.header-sos-link{
+    color:var(--slate, #434455);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+}
+
+
+.header-menu-item{color: var(--navyblue, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+    .address{font-style: normal;}
+
+    .header-soc-item{color: var(--slate, #434455);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
+
+        .header-soc-item :hover{color: #404bbf}
+
+        .header-soc-item :focus{
+            color: #404bbf
+
+        }
+
+        .color{
+            color:#2e2f42 ;
+        }
+                
+
+
+
+
+
+/*--------------HERO-----------*/
+
+
+.hero {
+    background: var(--navyblue, #2E2F42);
+
+}
+.hero-title{
+    color: var(--white, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 12.5;
+        line-height: 1.07em;
+        letter-spacing: 0.02em;
+   
+
+}
+
+
+.hero-btn{
+    color: var(--white, #FFF);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+}
+
+ .hero-btn:hover{ background-color: #404BBF;}
+
+ .hero-btn:focus{ background-color: #404BBF;}
+
+/**------------ADVANTAGES------------**/
+
+
+
+.advantages-list{}
+
+.advantages-item{}
+
+.advantages-subtitle{
+    color: var(--navyblue, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+
+.advantsges-item-text{
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
+
+
+    /**--------middle--------**/
+
+   .middle-name{
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize
+
+   }
+   /*------------team--------------*/
+
+   .team{
+    background-color: #F4F4FD;
+   }
+
+   .team-name{
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;}
+
+
+   .team-name-list{}
+
+
+   .team-name-item {background-color: #FFFFFF}
+
+
+   .team-name-subtitle{
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+   }
+   .team-name-text{
+    color: var(--slate, #434455);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px}
+
+
+    /*-------portfolio------------*/
+
+
+    .portfolio-little{
+
+    }
+    .portfolio-btn {}
+
+
+    .portfolio-btn{
+        color: #4d5ae5;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            background: var(--ocean, #404BBF);
+             font-family: "Roboto", sans-serif;
+             cursor: pointer;
+             background-color:#F4F4FD;
+    }
+
+
+    .portfolio-btn:hover{
+        color: #FFFFFF;
+        background-color: #404BBF;
+    }
+
+    .portfolio-btn:focus{
+        color: #FFFFFF;
+            background-color: #404BBF;
+
+    }
+
+    
+    .portfolio-carts{
+        
+    }
+
+    .portfolio-carts-list{
+        
+    }
+    .portfolio-carts-tittle{
+        color: #2e2f42;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            
+        
+    }
+
+    .portfolio-carts-text{
+        color: #434455;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+    }
+
+
+
+
+
+
+
+    /*------------FOOTER-----------*/
+
+    .footer{
+        background:var(--navyblue, #2E2F42);
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .footer-logo{color: var(--iris, #4D5AE5);
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+        }
+
+    .footer-logo-italic{color: var(--cloud, #F4F4FD);
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+         text-decoration: none;}
+
+    .footer-logo-text{color: var(--cloud, #F4F4FD);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
+    
+
+
