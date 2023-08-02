@@ -319,6 +319,7 @@ padding: 190px 470px 190px 470px;
     .bestsellers-picture{
 
     margin-bottom: 32px;
+    display: block
     }
 
 
@@ -390,6 +391,7 @@ padding: 190px 470px 190px 470px;
     }
     .carts{
         margin-bottom: 32px;
+        display: block;
     }
    
     
