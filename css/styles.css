@@ -32,6 +32,20 @@ border: 1px solid var(--cornflower, #E7E9FC);
     padding-bottom: 24px;
 }
 
+.header-container{
+    display: flex;
+    align-items: center;
+
+}
+ 
+
+.header-navigation{
+display: flex;
+align-items: center;
+gap: 76px; 
+
+
+}
 .header-logo{
     color: var(--iris, #4D5AE5);
         font-size: 18px;
@@ -58,6 +72,9 @@ border: 1px solid var(--cornflower, #E7E9FC);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-left: auto;
+        display: flex;
+        gap: 40px;
 
 }
 .header-menu-item :hover{color: #404bbf
@@ -80,17 +97,28 @@ border: 1px solid var(--cornflower, #E7E9FC);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+ }
 
-    .address{font-style: normal;}
+    .address{font-style: normal;
+    margin-left: auto;}
 
     .header-soc-item{color: var(--slate, #434455);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+        
+    }
 
-        .header-soc-item :hover{color: #404bbf}
+    .header-soc-list{
+        display: flex;
+        gap: 40px;
+        
+    }
+
+        .header-soc-item :hover{color: #404bbf;
+        }
 
         .header-soc-item :focus{
             color: #404bbf
@@ -141,6 +169,10 @@ padding: 190px 470px 190px 470px;
         background-color: #4D5AE5;
         font-family: "Roboto", sans-serif;
         cursor: pointer;
+        padding: 16px 32px;
+        border-radius: 4px;
+            background: var(--iris, #4D5AE5);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
  .hero-btn:hover{ background-color: #404BBF;}
@@ -153,9 +185,16 @@ padding: 190px 470px 190px 470px;
 
 .advantages-list{
     padding: 0 120px;
+    display: flex;
+
 }
 
-.advantages-item{}
+
+.advantages-item{
+   /* width: 264px;*/
+   width: calc((100% - 3 * 24px) / 3);
+
+}
 
 .advantages-subtitle{
     color: var(--navyblue, #2E2F42);
@@ -164,6 +203,7 @@ padding: 190px 470px 190px 470px;
         line-height: 1.2;
         letter-spacing: 0.4px;
         margin-bottom: 18px;
+        
 
 }
 
@@ -171,7 +211,12 @@ padding: 190px 470px 190px 470px;
     color: var(--slate, #434455);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+     
+    }
+        .advantages-list{
+            gap: 24px;
+        }
 
 
 
@@ -194,6 +239,11 @@ padding: 190px 470px 190px 470px;
         max-width: 323px;
         margin: 0 auto;
         margin-bottom:72px ;}
+
+        .middle-name-list{
+            display: flex;
+            gap: 24px;
+        }
 
 
        
@@ -227,6 +277,9 @@ padding: 190px 470px 190px 470px;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
+    gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
    }
 
 
@@ -260,7 +313,13 @@ padding: 190px 470px 190px 470px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.32px}
+    letter-spacing: 0.32px
+       }
+
+    .bestsellers-picture{
+
+    margin-bottom: 32px;
+    }
 
 
     /*-------portfolio------------*/
@@ -304,6 +363,7 @@ padding: 190px 470px 190px 470px;
              cursor: pointer;
              background-color:#F4F4FD;
             margin-bottom: 72px;
+           
              
     }
 
@@ -321,10 +381,22 @@ padding: 190px 470px 190px 470px;
 
     
     .portfolio-carts{
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+       
+        
         
     }
+    .carts{
+        margin-bottom: 32px;
+    }
+   
+    
 
     .portfolio-carts-list{
+        width: calc((100% - 24px) / 3);
+        
         
     }
     .portfolio-carts-tittle{
@@ -344,6 +416,7 @@ padding: 190px 470px 190px 470px;
             font-weight: 400;
             line-height: 1.5;
             letter-spacing: 0.02em;
+            
     }
 
 
@@ -359,6 +432,7 @@ padding: 190px 470px 190px 470px;
         font-family: 'Roboto', sans-serif;
         padding-top: 50px;
         padding-bottom: 50px;
+        
     }
 
     .footer-logo{color: var(--iris, #4D5AE5);
@@ -368,6 +442,7 @@ padding: 190px 470px 190px 470px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
+        
         }
 
     .footer-logo-italic{color: var(--cloud, #F4F4FD);
@@ -383,7 +458,9 @@ padding: 190px 470px 190px 470px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
+        
     }
+
     
 
 
