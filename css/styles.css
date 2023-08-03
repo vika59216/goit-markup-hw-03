@@ -31,13 +31,13 @@ border: 1px solid var(--cornflower, #E7E9FC);
 .header{
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc
+    
 }
 
 .header-container{
     display: flex;
     align-items: center;
-   
+border-bottom: 1px solid #e7e9fc
       
    
 
@@ -82,7 +82,7 @@ gap: 76px;
         margin-left: auto;
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        
 
 }
 .header-menu-item :hover{color: #404bbf
@@ -154,7 +154,7 @@ gap: 76px;
 
 .hero-wrap{
 background: var(--navyblue, #2E2F42);
-padding: 188px 0
+border-bottom: 1px solid #e7e9fc
 
 
 }
@@ -167,7 +167,9 @@ padding: 188px 0
         line-height: 1.07em;
         letter-spacing: 0.02em;
         margin-bottom: 48px;
-        max-width: 496px;
+            max-width: 496px;
+        padding: 188px 0
+        
         
    
 
@@ -373,11 +375,18 @@ padding: 120px 0
             white-space: nowrap;
             clip-path: inset(100%);
             clip: rect(0 0 0 0);
-            overflow: hidden;}
+            overflow: hidden;
+        }
 
 
     
-    .portfolio-btn {}
+    .portfolio-btn {
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+      
+
+    }
 
 
     .portfolio-carts{
@@ -392,6 +401,7 @@ padding: 120px 0
              cursor: pointer;
              background-color:#F4F4FD;
             margin-bottom: 72px;
+            justify-content: center
            
              
     }
@@ -400,11 +410,13 @@ padding: 120px 0
     .portfolio-btn:hover{
         color: #FFFFFF;
         background-color: #404BBF;
+        border: 1px solid transparent;
     }
 
     .portfolio-btn:focus{
         color: #FFFFFF;
             background-color: #404BBF;
+            border: 1px solid transparent;
 
     }
 
@@ -413,6 +425,8 @@ padding: 120px 0
         display: flex;
         gap: 24px;
         flex-wrap: wrap;
+        
+        
        
         
         
@@ -425,7 +439,9 @@ padding: 120px 0
     
 
     .portfolio-carts-list{
-        width: calc((100% - 24px) / 3);
+        width: calc((100% - 48px) / 3);
+        row-gap: 48px;
+        row-gap: 48px;
         
         
     }
