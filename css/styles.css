@@ -37,9 +37,6 @@ border: 1px solid var(--cornflower, #E7E9FC);
     display: flex;
     align-items: center;
 
-      
-   
-
 }
  
 
@@ -83,13 +80,14 @@ gap: 76px;
         gap: 40px;
         margin: 0px;
         padding: 0px;
+        padding-top: 24px;
+            padding-bottom: 24px;
         
 
 }
 
 .header-menu-link{
-padding-top: 24px;
-    padding-bottom: 24px;
+
     color: var(--navyblue, #2E2F42);
         font-size: 16px;
         font-weight: 500;
@@ -159,8 +157,8 @@ ul{
 
 .hero {padding-bottom: 188px;
     padding-top: 188px;
-    padding: 188 0;
-   
+    background: var(--navyblue, #2E2F42);
+   padding: 188 0;
 }
 
 
@@ -175,6 +173,7 @@ ul{
         margin-bottom: 48px;
             max-width: 496px;
            margin: 0 auto;
+        
 }
 
 h1, h2. h3, h4, h5 h6, p{
@@ -232,13 +231,14 @@ padding: 120px 0
 .advantages-list{
     padding: 0 120px;
     display: flex;
+    
 
 }
 
 
 .advantages-item{
    /* width: 264px;*/
-   width: calc((100% - 3 * 24px) / 3);
+width: calc((100% - 72px) / 4);
 
 }
 
@@ -342,6 +342,7 @@ padding: 120px 0
     border-radius: 0px 0px 4px 4px;
         background: var(--white, #FFF);
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        width: calc((100% - 72px) / 4)
         }
 
         .team-work{
@@ -418,7 +419,9 @@ padding: 120px 0
     .portfolio-portf{
         row-gap: 48px;
         width: calc((100% - 48px) / 3);
-        column: gap 24px; ;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
     }
 
 
@@ -472,6 +475,16 @@ padding: 120px 0
     .portfolio-carts-list{
         width: calc((100% - 48px) / 3);
         
+    }
+
+    .no-ideas{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        margin-bottom: 8px
+
+
+
     }
     .portfolio-carts-tittle{
         color: #2e2f42;
