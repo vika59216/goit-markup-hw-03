@@ -116,6 +116,7 @@ ul{
 
 
 .header-menu-item{
+    padding: 24px 0
  }
 
     .address{font-style: normal;
@@ -231,14 +232,14 @@ padding: 120px 0
 .advantages-list{
     padding: 0 120px;
     display: flex;
-    
+    width: calc((100% - 72px) / 4);
 
 }
 
 
 .advantages-item{
    /* width: 264px;*/
-width: calc((100% - 72px) / 4);
+
 
 }
 
@@ -422,6 +423,7 @@ width: calc((100% - 72px) / 4);
         display: flex;
         justify-content: center;
         gap: 24px;
+        row-gap: 48px;
     }
 
 
@@ -435,7 +437,8 @@ width: calc((100% - 72px) / 4);
              font-family: "Roboto", sans-serif;
              cursor: pointer;
             margin-bottom: 72px;
-            justify-content: center
+            justify-content: center;
+            row-gap: 48px;
            
              
     }
