@@ -417,11 +417,11 @@ width: calc((100% - 72px) / 4);
     }
 
     .portfolio-portf{
-        
         gap: 24px;
         display: flex;
         justify-content: center;
-            margin-bottom: 72px
+            margin-bottom: 72px;
+            row-gap: 48px;
     }
 
 
