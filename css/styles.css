@@ -554,7 +554,7 @@ width: calc((100% - 72px) / 4);
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
-       
+        max-width: 264px
         
     }
 
