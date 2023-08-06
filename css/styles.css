@@ -178,9 +178,9 @@ ul{
         font-weight: 700;
         line-height: 1.07em;
         letter-spacing: 0.02em;
-        margin-bottom: 48px;
-            max-width: 496px;
+          max-width: 496px;
            margin: 0 auto;
+            margin-bottom: 48px;
         
 }
 
@@ -220,7 +220,8 @@ h1, h2. h3, h4, h5 h6, p{
 
 
 .advantages{
-padding: 120px 0
+padding: 120px 0;
+
 
 }
 .visually-hidden {
@@ -237,9 +238,9 @@ padding: 120px 0
 
 
 .advantages-list{
-    padding: 0 120px;
+    
     display: flex;
-   
+      gap: 24px; 
 
 }
 
@@ -270,7 +271,7 @@ width: calc((100% - 72px) / 4);
      
     }
         .advantages-list{
-            gap: 24px;
+            
         }
 
 
@@ -278,7 +279,7 @@ width: calc((100% - 72px) / 4);
     /**--------middle--------**/
 
     .middle{
-        padding-top: 120px;
+        padding-top: 0px;
         padding-bottom: 120px;
     }
 
@@ -291,7 +292,6 @@ width: calc((100% - 72px) / 4);
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
-        max-width: 323px;
         margin: 0 auto;
         margin-bottom:72px ;}
 
@@ -329,7 +329,7 @@ width: calc((100% - 72px) / 4);
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    max-width: 162px;
+    
         margin: 0 auto;
         margin-bottom: 72px;
         
@@ -337,13 +337,9 @@ width: calc((100% - 72px) / 4);
 
 
    .team-name-list{
-    padding-top: 32px;
-    padding-bottom: 32px;
     display: flex;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
-    width: calc((100% - 72px) / 4);
+    
    
    }
 
@@ -352,7 +348,7 @@ width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
         background: var(--white, #FFF);
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-       
+    width: calc((100% - 72px) / 4);
        
         }
 
@@ -365,7 +361,7 @@ width: calc((100% - 72px) / 4);
 
 
          .bestsellers-picture{
-            margin-bottom:32 px;
+            display: block;
          }
 
 
@@ -429,7 +425,7 @@ width: calc((100% - 72px) / 4);
 
     .portfolio-portf{
         row-gap: 48px;
-        width: calc((100% - 48px) / 3);
+       
         display: flex;
         justify-content: center;
         gap: 24px;
@@ -481,7 +477,7 @@ width: calc((100% - 72px) / 4);
         
     }
     .carts{
-        margin-bottom: 32px;
+        
         display: block;
     }
    
