@@ -421,7 +421,7 @@ width: calc((100% - 72px) / 4);
         display: flex;
         justify-content: center;
             margin-bottom: 72px;
-            row-gap: 48px;
+            margin-bottom: 72px;
     }
 
 
