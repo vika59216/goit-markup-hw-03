@@ -16,9 +16,7 @@ border: 1px solid var(--cornflower, #E7E9FC);
 }
 
 .container{
-    /*width:1158px;*/
-    max-width: 1158px;
-    width: 100%;
+    width:1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -384,11 +382,7 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.32px
        }
 
-    .bestsellers-picture{
-
-    margin-bottom: 32px;
-    display: block
-    }
+   
 
 
     /*-------portfolio------------*/
@@ -560,6 +554,7 @@ width: calc((100% - 72px) / 4);
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
+       
         
     }
 
