@@ -413,17 +413,14 @@ width: calc((100% - 72px) / 4);
         padding: 12px 24px;
         border: 1px solid #e7e9fc;
         border-radius: 4px;
-        
 
     }
 
     .portfolio-portf{
-        row-gap: 48px;
-       
+        
+        gap: 24px;
         display: flex;
         justify-content: center;
-        gap: 24px;
-        row-gap: 48px;
             margin-bottom: 72px
     }
 
