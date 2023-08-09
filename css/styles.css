@@ -41,8 +41,6 @@ border: 1px solid var(--cornflower, #E7E9FC);
 .header-navigation{
 display: flex;
 align-items: center;
-gap: 76px; 
-
 
 
 }
@@ -182,10 +180,14 @@ ul{
         
 }
 
-h1, h2. h3, h4, h5 h6, p{
+h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
 
+p{
+    margin: 0;
+
+}
 
 .hero-btn{
     color: var(--white, #FFF);
@@ -416,12 +418,19 @@ width: calc((100% - 72px) / 4);
 
     }
 
+    .backr1{
+
+    }
+    .backr{
+        background: var(--cloud, #F4F4FD);
+    }
+
     .portfolio-portf{
         gap: 24px;
         display: flex;
         justify-content: center;
             margin-bottom: 72px;
-            margin-bottom: 72px;
+            
     }
 
 
@@ -434,9 +443,11 @@ width: calc((100% - 72px) / 4);
             letter-spacing: 0.04em;
              font-family: "Roboto", sans-serif;
              cursor: pointer;
-            margin-bottom: 72px;
             justify-content: center;
             row-gap: 48px;
+            display: flex;
+                gap: 24px;
+                flex-wrap: wrap;
            
              
     }
@@ -456,17 +467,6 @@ width: calc((100% - 72px) / 4);
     }
 
     
-    .portfolio-carts{
-        display: flex;
-        gap: 24px;
-        flex-wrap: wrap;
-        row-gap: 48px
-        
-        
-       
-        
-        
-    }
     .carts{
         
         display: block;
@@ -493,7 +493,7 @@ width: calc((100% - 72px) / 4);
             font-weight: 500;
             line-height: 1.2;
             letter-spacing: 0.02em;
-            margin-bottom: 8px;
+            
             
         
     }
